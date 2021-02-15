@@ -1,3 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://lwgc.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Last Week in Google Cloud"
+theme = "changelog"
+paginate = 10
