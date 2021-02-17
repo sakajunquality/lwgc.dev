@@ -3,7 +3,7 @@ baseUrl: "https://lwgc.dev/"
 title: "Last Week in Google Cloud"
 theme: "anubis"
 paginate: 10
-googleAnalytics: G-FPZB76WQTQ
+googleAnalytics: UA-190042088-1
 enableRobotsTXT: true
 
 menu:
