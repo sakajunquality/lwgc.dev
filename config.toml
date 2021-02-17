@@ -1,5 +1,0 @@
-baseURL = "https://lwgc.dev/"
-languageCode = "en-us"
-title = "Last Week in Google Cloud"
-theme = "changelog"
-paginate = 10
