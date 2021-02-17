@@ -6,6 +6,19 @@ paginate: 10
 googleAnalytics: G-FPZB76WQTQ
 enableRobotsTXT: true
 
+menu:
+  main:
+  # - identifier: archive
+  #   name: Archive
+  #   title: Archive
+  #   url: /posts/
+  #   weight: 0
+  - identifier: GitHub
+    name: GitHub
+    title: GitHub
+    url: https://github.com/sakajunquality/lwgc.dev
+    weight: 0
+
 params:
   author: "sakajunquality"
   author_link: "https://twitter.com/sakajunquality"
