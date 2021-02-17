@@ -1,10 +1,11 @@
 languageCode: "en-us"
+defaultContentLanguage: "en"
 baseUrl: "https://lwgc.dev/"
 title: "Last Week in Google Cloud"
 theme: "anubis"
 paginate: 10
 googleAnalytics: UA-190042088-1
-enableRobotsTXT: true
+enableRobotsTXT: false
 
 menu:
   main:
@@ -37,3 +38,13 @@ markup:
   goldmark:
     renderer:
       unsafe: true # enable raw HTML in Markdown
+
+languages:
+  en:
+    title: "Last Week in Google Cloud"
+    LanguageName: English
+    weight: 1
+  ja:
+    title: "Last Week in Google Cloud にほんご"
+    LanguageName: 日本語
+    weight: 2
