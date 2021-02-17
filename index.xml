@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Last Week in Google Cloud</title><link>https://lwgc.dev/</link><description>Last Week in Google Cloud</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 17:00:00 +0900</lastBuildDate><atom:link href="https://lwgc.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>2021 Week 7 (2021-02-15-)</title><link>https://lwgc.dev/posts/2021-02-15/</link><pubDate>Mon, 15 Feb 2021 17:00:00 +0900</pubDate><guid>https://lwgc.dev/posts/2021-02-15/</guid><description>&lt;h1 id="featured-releases">Featured Releases&lt;/h1>
+&lt;h2 id="bigquery">BigQuery&lt;/h2>
+&lt;ul>
+&lt;li>BigQuery standard SQL queries on Google Cloud Storage data are now supported by cached query results. (&lt;a href="https://cloud.google.com/bigquery/docs/release-notes#February_12_2021">February 12, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/bigquery/docs/cached-results#cache-exceptions">Using cached query results&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="compute-engine">Compute Engine&lt;/h2>
+&lt;ul>
+&lt;li>Google Virtual NIC (gVNIC) driver is now generally available. For more information, see Using Google Virtual NIC. (&lt;a href="https://cloud.google.com/compute/docs/release-notes#February_12_2021">February 12, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Status: GA&lt;/li>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/bigquery/docs/cached-results#cache-exceptions">Using Google Virtual NIC&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="other-release">Other Release&lt;/h1>
+&lt;ul>
+&lt;li>TBD!&lt;/li>
+&lt;/ul></description></item><item><title>2021 Week 6 (2021-02-08-)</title><link>https://lwgc.dev/posts/2021-02-08/</link><pubDate>Mon, 08 Feb 2021 17:00:00 +0900</pubDate><guid>https://lwgc.dev/posts/2021-02-08/</guid><description>&lt;h1 id="featured-releases">Featured Releases&lt;/h1>
+&lt;h2 id="bigquery">BigQuery&lt;/h2>
+&lt;ul>
+&lt;li>Clustered tables now support the DATETIME type for clustering columns. For more information, see Creating and using clustered tables. This feature is generally available. (&lt;a href="https://cloud.google.com/bigquery/docs/release-notes#January_29_2021">January 29, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Status: GA&lt;/li>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/bigquery/docs/creating-clustered-tables">Creating and using clustered tables&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="cloud-workflows">Cloud Workflows&lt;/h2>
+&lt;ul>
+&lt;li>Preview: Connectors
+&lt;ul>
+&lt;li>Status: Preivew&lt;/li>
+&lt;li>Docs
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/workflows/docs/connectors">Creating and using clustered tables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/workflows/docs/connectors-samples">Connectors samples&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="network-connectivity-center">Network Connectivity Center&lt;/h2>
+&lt;ul>
+&lt;li>Launched in Preview
+&lt;ul>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/network-connectivity/docs">Network Connectivity&lt;/a>&lt;/li>
+&lt;li>Posts
+&lt;ul>
+&lt;li>ja: &lt;a href="https://medium.com/google-cloud-jp/network-connectivity-center-4205a057cc02">Network Connectivity Center&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="cloud-logging">Cloud Logging&lt;/h2>
+&lt;ul>
+&lt;li>GA: Cloud Logging increased write API call limit&lt;/li>
+&lt;/ul>
+&lt;h1 id="other-release">Other Release&lt;/h1>
+&lt;ul>
+&lt;li>TBD!&lt;/li>
+&lt;/ul></description></item><item><title>2021 Week 5 (2021-02-01-)</title><link>https://lwgc.dev/posts/2021-02-01/</link><pubDate>Mon, 01 Feb 2021 17:00:00 +0900</pubDate><guid>https://lwgc.dev/posts/2021-02-01/</guid><description>&lt;h1 id="featured-releases">Featured Releases&lt;/h1>
+&lt;h3 id="cloud-run-fully-managed">Cloud Run (fully managed)&lt;/h3>
+&lt;ul>
+&lt;li>Cloud Run now supports WebSockets, HTTP/2 and gRPC streaming. (&lt;a href="https://cloud.google.com/run/docs/release-notes?hl=en#January_20_2021">January 20, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Status: Preivew&lt;/li>
+&lt;li>Docs
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/run/docs/triggering/websockets?hl=en">Invoking with WebSockets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/run/docs/configuring/http2?hl=en">Using HTTP/2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/run/docs/triggering/grpc?hl=en">Using gRPC&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Posts
+&lt;ul>
+&lt;li>Official: &lt;a href="https://cloud.google.com/blog/products/serverless/cloud-run-gets-websockets-http-2-and-grpc-bidirectional-streams">Introducing WebSockets, HTTP/2 and gRPC bidirectional streams for Cloud Run&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="secret-manager">Secret Manager&lt;/h3>
+&lt;ul>
+&lt;li>Secret Manager Expiration is available for all customers via public preview.(&lt;a href="https://cloud.google.com/secret-manager/docs/release-notes#January_28_2021">January 28, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Status: Preview&lt;/li>
+&lt;li>Docs
+&lt;ul>
+&lt;li>Official: &lt;a href="https://cloud.google.com/secret-manager/docs/creating-and-managing-expiring-secrets">Creating and Managing Expiring Secrets&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="cloud-sql">Cloud SQL&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Query Insights is now generally available. Query Insights helps you detect, diagnose, and prevent query performance problems for Cloud SQL databases. It provides self-service, intuitive monitoring, and diagnostic information that goes beyond detection to help you to identify the root cause of performance problems. (&lt;a href="https://cloud.google.com/sql/docs/release-notes#January_28_2021">January 28, 2021&lt;/a>)&lt;/p>
+&lt;ul>
+&lt;li>Status: GA&lt;/li>
+&lt;li>Docs
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/sql/docs/postgres/insights-overview">Overview of Query Insights&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Posts
+&lt;ul>
+&lt;li>Official: &lt;a href="https://cloud.google.com/blog/products/databases/get-ahead-of-database-performance-issues-with-cloud-sql-insights">Database observability for developers: introducing Cloud SQL Insights&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="other-release">Other Release&lt;/h1>
+&lt;ul>
+&lt;li>TBD!&lt;/li>
+&lt;/ul></description></item></channel></rss>
