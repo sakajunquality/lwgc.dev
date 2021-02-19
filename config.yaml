@@ -23,7 +23,7 @@ menu:
 params:
   author: "sakajunquality"
   author_link: "https://twitter.com/sakajunquality"
-  description: "Arbitral Weekly Updates of Google Cloud by @sakajunquality"
+  description: "Arbitrary selected Weekly Updates of Google Cloud by @sakajunquality"
   images:
     - images/bg.png # relative path to "static" directory
   # customCSS:
