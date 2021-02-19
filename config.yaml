@@ -24,8 +24,8 @@ params:
   author: "sakajunquality"
   author_link: "https://twitter.com/sakajunquality"
   description: "Arbitral Weekly Updates of Google Cloud by @sakajunquality"
-  # images:
-  #   - images/og-featured.png # relative path to "static" directory
+  images:
+    - images/bg.png # relative path to "static" directory
   # customCSS:
   #   - css/my.css
   # customJS:
