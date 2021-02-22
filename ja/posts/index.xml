@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Last Week in Google Cloud にほんご</title><link>https://lwgc.dev/ja/posts/</link><description>Last Week in Google Cloud にほんご (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 17:00:00 +0900</lastBuildDate><atom:link href="https://lwgc.dev/ja/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2021 Week 7 (~2021-02-15)</title><link>https://lwgc.dev/ja/posts/2021-02-15/</link><pubDate>Mon, 15 Feb 2021 17:00:00 +0900</pubDate><guid>https://lwgc.dev/ja/posts/2021-02-15/</guid><description>&lt;h1 id="きになり">きになり！&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Last Week in Google Cloud にほんご</title><link>https://lwgc.dev/ja/posts/</link><description>Last Week in Google Cloud にほんご (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 12:00:00 +0900</lastBuildDate><atom:link href="https://lwgc.dev/ja/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2021 Week 8 (~2021-02-22)</title><link>https://lwgc.dev/ja/posts/2021-02-22/</link><pubDate>Mon, 22 Feb 2021 12:00:00 +0900</pubDate><guid>https://lwgc.dev/ja/posts/2021-02-22/</guid><description>&lt;p>This is a best-effort based Japanese editoon. See &lt;a href="https://lwgc.dev/posts/2021-02-22/">English edition&lt;/a> for the full updates.&lt;/p>
+&lt;h1 id="注目のリリース">注目のリリース&lt;/h1>
+&lt;h2 id="kubernetes-engine">Kubernetes Engine&lt;/h2>
+&lt;h3 id="multi-cluster-service">Multi Cluster Service&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Discover and invoke services across clusters with GKE multi-cluster services. (&lt;a href="https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-multi-cluster-services">February 17, 2021&lt;/a>)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Multi-cluster Services (MCS) is now Generally Available (GA) for GKE versions 1.17 and later. MCS provides a Kubernetes-native interface to build Kubernetes applications that span multiple clusters. MCS enables existing Services to be discoverable and accessible across clusters with a virtual IP, matching the behavior of a ClusterIP Service accessible in a cluster. (&lt;a href="https://cloud.google.com/kubernetes-engine/docs/release-notes#new-20210217">February 17, 2021, GKE Release notes&lt;/a>)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="docs">Docs&lt;/h4>
+&lt;ul>
+&lt;li>Concepts: &lt;a href="https://cloud.google.com/kubernetes-engine/docs/concepts/multi-cluster-services">Multi-cluster Services&lt;/a>&lt;/li>
+&lt;li>Configuring: &lt;a href="https://cloud.google.com/kubernetes-engine/docs/how-to/multi-cluster-services">Configuring multi-cluster Services&lt;/a>
+&lt;ul>
+&lt;li>See Also: &lt;a href="https://cloud.google.com/kubernetes-engine/docs/how-to/multi-cluster-ingress-setup">Setting up Multi-cluster Ingress&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="compute-engine">Compute Engine&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Preview&lt;/strong>: Predictive autoscaling for managed instance groups lets you improve the availability of your workloads by using Machine Learning to predict future demand and create virtual machines ahead of forecasted load.(&lt;a href="https://cloud.google.com/release-notes#February_17_2021">February 17, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/compute/docs/autoscaler/predictive-autoscaling">Using predictive autoscaling&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="bigquery">BigQuery&lt;/h2>
+&lt;ul>
+&lt;li>BigQuery now supports exporting table data in Parquet format. This feature is in &lt;strong>Preview&lt;/strong>. For more information, see Parquet export details.(&lt;a href="https://cloud.google.com/release-notes#February_16_2021">February 16, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/bigquery/docs/exporting-data#parquet_export_details">Parquet export details&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="google-cloud-armor">Google Cloud Armor&lt;/h2>
+&lt;ul>
+&lt;li>Google Cloud Armor Adaptive Protection is available in Public Preview. Adaptive Protection builds machine-learning models that help you protect your Google Cloud applications, websites, and services against L7 distributed denial-of-service (DDoS) attacks.(&lt;a href="https://cloud.google.com/release-notes#February_19_2021">February 19, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/armor/docs/adaptive-protection-overview">Google Cloud Armor Adaptive Protection overview&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="iam">IAM&lt;/h2>
+&lt;ul>
+&lt;li>You can now use IAM conditions to set limits on the roles that a member can grant and revoke. This feature is generally available.(&lt;a href="https://cloud.google.com/release-notes#February_16_2021">February 16, 2021&lt;/a>)
+&lt;ul>
+&lt;li>Docs: &lt;a href="https://cloud.google.com/iam/docs/setting-limits-on-granting-roles">Setting limits on granting roles&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="ブログなど">ブログなど&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/blog/topics/developers-practitioners/life-changing-magic-making-ml">The life-changing magic of making with ML&lt;/a>, February 18, 2021&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/blog/topics/developers-practitioners/ship-your-go-applications-faster-cloud-run-ko">Ship your Go applications faster to Cloud Run with ko&lt;/a>, February 17, 2021&lt;/li>
+&lt;li>&lt;a href="https://ahmet.im/blog/building-container-images-in-go/">Building container images in Go&lt;/a>, February 03, 2021&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/run/docs/triggering/websockets#best-practices">Cloud Run: Using WebSockets - Best Practices&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/ahmetb/status/1362876986473943051">https://twitter.com/ahmetb/status/1362876986473943051&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="その他のリリース">その他のリリース&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/blog/topics/developers-practitioners/introducing-django-cloud-spanner-database">Introducing Django ORM Support for Cloud Spanner&lt;/a>, February 17, 2021&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/blog/products/networking/service-directory-is-ga-and-adds-automatic-service-registration">Service Directory is generally available: Simplify your service inventory&lt;/a>, February 17, 2021&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/dns/docs/zones/creating-response-policies">Managing response policies and rules in Cloud DNS is available in Beta&lt;/a>, &lt;a href="https://cloud.google.com/release-notes#February_16_2021">February 16, 2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/vpc-service-controls/docs/ingress-egress-rules">Preview release of Ingress and egress rules for VPC Service Controls.&lt;/a>, &lt;a href="https://cloud.google.com/release-notes#February_16_2021">February 16, 2021&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021 Week 7 (~2021-02-15)</title><link>https://lwgc.dev/ja/posts/2021-02-15/</link><pubDate>Mon, 15 Feb 2021 17:00:00 +0900</pubDate><guid>https://lwgc.dev/ja/posts/2021-02-15/</guid><description>&lt;h1 id="きになり">きになり！&lt;/h1>
 &lt;h2 id="bigquery">BigQuery&lt;/h2>
 &lt;ul>
 &lt;li>BigQuery standard SQL queries on Google Cloud Storage data are now supported by cached query results. (&lt;a href="https://cloud.google.com/bigquery/docs/release-notes#February_12_2021">February 12, 2021&lt;/a>)
