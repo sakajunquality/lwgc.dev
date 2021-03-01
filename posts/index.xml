@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Last Week in Google Cloud</title><link>https://lwgc.dev/posts/</link><description>Last Week in Google Cloud (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 12:00:00 +0900</lastBuildDate><atom:link href="https://lwgc.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2021 Week 8 (~2021-02-22)</title><link>https://lwgc.dev/posts/2021-02-22/</link><pubDate>Mon, 22 Feb 2021 12:00:00 +0900</pubDate><guid>https://lwgc.dev/posts/2021-02-22/</guid><description>&lt;h1 id="featured-releases">Featured Releases&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Last Week in Google Cloud</title><link>https://lwgc.dev/posts/</link><description>Last Week in Google Cloud (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 12:10:00 +0900</lastBuildDate><atom:link href="https://lwgc.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Monthly Edition: February 2021 Updates</title><link>https://lwgc.dev/posts/montly-2021-02/</link><pubDate>Mon, 01 Mar 2021 12:10:00 +0900</pubDate><guid>https://lwgc.dev/posts/montly-2021-02/</guid><description>&lt;h1 id="featured-releases">Featured Releases&lt;/h1>
+&lt;ul>
+&lt;li>GKE
+&lt;ul>
+&lt;li>Autopilot&lt;/li>
+&lt;li>Multi-cluster service&lt;/li>
+&lt;li>Node System Config&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>GCE
+&lt;ul>
+&lt;li>Importing images from AWS&lt;/li>
+&lt;li>Predictive autoscaling&lt;/li>
+&lt;li>Google Virtual NIC (gVNIC) driver&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Cloud SQL
+&lt;ul>
+&lt;li>Faster maintenance&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>VPC
+&lt;ul>
+&lt;li>Hierarchical firewall policies&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Artifact Registry
+&lt;ul>
+&lt;li>PyPI repositories&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>BigQuery
+&lt;ul>
+&lt;li>Materialized Views GA&lt;/li>
+&lt;li>Export Parquet&lt;/li>
+&lt;li>GCS Query Cache&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Google Cloud Armor
+&lt;ul>
+&lt;li>Adaptive Protection&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="weekly-posts">Weekly Posts&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://lwgc.dev/posts/2021-02-08/">2021 Week 6 (~2021-02-08)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://lwgc.dev/posts/2021-02-15/">2021 Week 7 (~2021-02-15)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://lwgc.dev/posts/2021-02-22/">2021 Week 8 (~2021-02-22)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://lwgc.dev/posts/2021-03-01/">2021 Week 9 (~2021-03-01)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021 Week 9 (~2021-03-01)</title><link>https://lwgc.dev/posts/2021-03-01/</link><pubDate>Mon, 01 Mar 2021 12:00:00 +0900</pubDate><guid>https://lwgc.dev/posts/2021-03-01/</guid><description>&lt;h1 id="featured-releases">Featured Releases&lt;/h1>
+&lt;h2 id="kubernetes-engine">Kubernetes Engine&lt;/h2>
+&lt;h3 id="gke-autopilot-february-25-2021httpscloudgooglecomkubernetes-enginedocsrelease-notesfebruary_25_2021_2021-r7">GKE Autopilot, &lt;a href="https://cloud.google.com/kubernetes-engine/docs/release-notes#february_25_2021_2021-r7">February 25, 2021&lt;/a>&lt;/h3>
+&lt;p>You can now create clusters using the Autopilot mode. Autopilot is a new mode of operation in GKE that is designed to reduce the operational cost of managing clusters, optimize your clusters for production, and yield higher workload availability. For more information, see the Autopilot overview and blog post.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview">Autopilot overview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=_JKsv2BtAnY">Introducing GKE Autopilot - YouTube&lt;/a>&lt;/li>
+&lt;li>Podcast: &lt;a href="https://kubernetespodcast.com/episode/139-gke-autopilot/">GKE Autopilot, with Yochay Kiriaty&lt;/a>&lt;/li>
+&lt;li>Blog: &lt;a href="https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-autopilot">Introducing GKE Autopilot: a revolution in managed Kubernetes&lt;/a>&lt;/li>
+&lt;li>Blog(ja): &lt;a href="https://medium.com/google-cloud-jp/gke-autopilot-87f8458ccf74">完全マネージドな k8s ! GKE Autopilot を解説する&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="gke-node-system-config-february-22-2021httpscloudgooglecomkubernetes-enginedocsrelease-notesfebruary_22_2021">GKE Node System Config, &lt;a href="https://cloud.google.com/kubernetes-engine/docs/release-notes#february_22_2021">February 22, 2021&lt;/a>&lt;/h3>
+&lt;p>GKE Node System Config is now GA.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/kubernetes-engine/docs/how-to/node-system-config">Customizing node system configuration&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="120-available-in-the-rapid-channel-february-25-2021">1.20 available in the Rapid channel, February 25, 2021&lt;/h3>
+&lt;p>Kubernetes 1.20 is now available in the Rapid channel. Before upgrading to 1.20.2-gke.2500, read the Kubernetes 1.20 Release Notes especially the Urgent upgrade notes and Deprecations sections.&lt;/p>
+&lt;h2 id="bigquery">BigQuery&lt;/h2>
+&lt;h3 id="materialized-views-are-now-generally-available-february-25-2021httpscloudgooglecombigquerydocsrelease-notesfebruary_25_2021">Materialized Views are now generally available, &lt;a href="https://cloud.google.com/bigquery/docs/release-notes#February_25_2021">February 25, 2021&lt;/a>&lt;/h3>
+&lt;p>BigQuery materialized views are now generally available (GA). BigQuery materialized views are now generally available (GA). Materialized views are precomputed views that periodically cache the results of a query, enhancing performance and efficiency, and reducing costs, particularly for aggregated queries. For more information, see Introduction to materialized views.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/bigquery/docs/materialized-views-intro">Introduction to materialized views&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="information_schematables-ddl-february-26-2021httpscloudgooglecombigquerydocsrelease-notesfebruary_26_2021">INFORMATION_SCHEMA.TABLES DDL, &lt;a href="https://cloud.google.com/bigquery/docs/release-notes#February_26_2021">February 26, 2021&lt;/a>&lt;/h3>
+&lt;p>The INFORMATION_SCHEMA.TABLES view now includes a DDL column. The value is a data definition language (DDL) statement that can be used to recreate the table. This feature is in Preview.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/bigquery/docs/information-schema-tables">Getting table metadata using INFORMATION_SCHEMA&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="compute-engine">Compute Engine&lt;/h2>
+&lt;h3 id="import-aws-ami-february-25-2021httpscloudgooglecomcomputedocsrelease-notesfebruary_25_2021">Import AWS AMI, &lt;a href="https://cloud.google.com/compute/docs/release-notes#February_25_2021">February 25, 2021&lt;/a>&lt;/h3>
+&lt;p>Preview: You can now use the gcloud command-line tool to import images from AWS into Google Cloud. For more information, see Importing images from AWS.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/compute/docs/import/import-aws-image">Importing images from AWS&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="artifact-registry">Artifact Registry&lt;/h2>
+&lt;h3 id="pypi-repositories-february-26-2021httpscloudgooglecomartifact-registrydocsrelease-notesfebruary_26_2021">PyPI repositories, &lt;a href="https://cloud.google.com/artifact-registry/docs/release-notes#February_26_2021">February 26, 2021&lt;/a>&lt;/h3>
+&lt;p>Support for Python packages in private PyPI repositories is now in alpha. This feature is only available to alpha users. If you are interested in joining the alpha, fill in the sign up form.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSf5q3CeDna_c27ifadF1KO17W3PrYO91w-UI-jjUdnvGS1cmQ/viewform">Artifact Registry Alpha signup form&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/artifact-registry/docs/python">Working with Python packages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/artifact-registry/docs/python/quickstart">Quickstart for Python&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="resource-manager-february-26-2021httpscloudgooglecomresource-managerdocsrelease-notesfebruary_26_2021">Resource Manager, &lt;a href="https://cloud.google.com/resource-manager/docs/release-notes#February_26_2021">February 26, 2021&lt;/a>&lt;/h2>
+&lt;p>Project migration between organizations is now a self-serve process in public preview. For more information, see Migrating projects.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/resource-manager/docs/project-migration">Migrating projects&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="virtual-private-cloud">Virtual Private Cloud&lt;/h2>
+&lt;h3 id="hierarchical-firewall-policies-february-26-2021httpscloudgooglecomvpcdocsrelease-notesfebruary_26_2021">Hierarchical firewall policies, &lt;a href="https://cloud.google.com/vpc/docs/release-notes#February_26_2021">February 26, 2021&lt;/a>&lt;/h3>
+&lt;p>Hierarchical firewall policies are now available in General Availability.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/vpc/docs/firewall-policies">Hierarchical firewall policies overview&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="anthos-config-management">Anthos Config Management&lt;/h2>
+&lt;h2 id="162-february-25-2021httpscloudgooglecomanthos-config-managementdocsrelease-notesfebruary_25_2021">1.6.2, &lt;a href="https://cloud.google.com/anthos-config-management/docs/release-notes#February_25_2021">February 25, 2021&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>Hierarchy Controller now includes a preview of Hierarchical Resource Quotas (HRQs). HRQs are drop-in replacements for Kubernetes Resource Quotas, but apply to resources in both a namespace as well as all of its descendants. To learn more, see Using hierarchical resource quotas.&lt;/li>
+&lt;li>Config Sync now takes advantage of server-side apply when possible, so will be able to handle custom resources larger than 256 kB on Kubernetes clusters with a version of 1.16 or later.&lt;/li>
+&lt;li>The Anthos Config Management Operator Deployment now specifies resources.limits for config-management-operator:manager.&lt;/li>
+&lt;/ul>
+&lt;h2 id="firestore">Firestore&lt;/h2>
+&lt;h3 id="connector-for-workflows-february-25-2021httpscloudgooglecomfirestoredocsrelease-notesfebruary_25_2021">Connector for Workflows, &lt;a href="https://cloud.google.com/firestore/docs/release-notes#February_25_2021">February 25, 2021&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>A Firestore connector for Workflows is now available in public preview.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://cloud.google.com/firestore/docs/solutions/workflows">Firestore connector for Workflows&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="cloud-sql">Cloud SQL&lt;/h2>
+&lt;h3 id="faster-maintenance-february-24-2021httpscloudgooglecomsqldocsrelease-notesfebruary_24_2021">Faster maintenance, &lt;a href="https://cloud.google.com/sql/docs/release-notes#February_24_2021">February 24, 2021&lt;/a>&lt;/h3>
+&lt;p>Cloud SQL now offers faster maintenance, with average connectivity loss lasting 90 seconds or less on average. See more about maintenance timelines.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/sql/docs/mysql/maintenance#how_long_does_maintenance_take">MySQL: maintenance timelines&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/sql/docs/postgres/maintenance#how_long_does_maintenance_take">PostgreSQL: maintenance timelines&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="must-read">Must Read&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://cloud.google.com/blog/products/identity-security/introducing-google-clouds-new-cloud-security-podcast">New Cloud Security Podcast by Google is here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="other-releases">Other Releases&lt;/h1>
+&lt;ul>
+&lt;li>Memorystore for Memcached, February 25, 2021
+&lt;ul>
+&lt;li>General Availability release of Memorystore for Memcached.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>BigQuery BI Engine, February 25, 2021
+&lt;ul>
+&lt;li>BigQuery BI Engine now interacts with popular BI tools such as Looker, Tableau, and more, by means of an SQL interface. You must enroll to participate in the preview.&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/bi-engine/docs/sql-interface-overview">BigQuery BI Engine SQL interface overview&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Secret Manager, February 25, 2021
+&lt;ul>
+&lt;li>Event notifications is now available in Preview.&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/secret-manager/docs/event-notifications">Event notifications for Secret Manager&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Identity and Access Management, February 24, 2021
+&lt;ul>
+&lt;li>You can now use Policy Simulator to simulate policy changes before you apply them. This feature is available in Preview.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Private Catalog, February 24, 2021
+&lt;ul>
+&lt;li>Private Catalog supports Terraform. Admins can create and curate Terraform configurations as solutions for their catalogs.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Virtual Private Cloud, February 23, 2021
+&lt;ul>
+&lt;li>The ability to connect VM interfaces other than nic0 to a Shared VPC is now available in General Availability. This feature presently only GA for individual VM instances. Support for instance templates and managed instance groups is still Preview.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021 Week 8 (~2021-02-22)</title><link>https://lwgc.dev/posts/2021-02-22/</link><pubDate>Mon, 22 Feb 2021 12:00:00 +0900</pubDate><guid>https://lwgc.dev/posts/2021-02-22/</guid><description>&lt;h1 id="featured-releases">Featured Releases&lt;/h1>
 &lt;h2 id="kubernetes-engine">Kubernetes Engine&lt;/h2>
 &lt;h3 id="multi-cluster-service">Multi Cluster Service&lt;/h3>
 &lt;ul>
